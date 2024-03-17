@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f3f3f3;
+    font-size: 20px;
+    padding: 50px;
+    /* background-image: url("https://img.freepik.com/vector-premium/patron-geometrico-costuras-moda-ilustracion-vectorial-figuras-geometricas-fondos-diseno-plantilla-invitacion-folleto-promocion_303198-912.jpg?w=826"); */
+    /* background-image: linear-gradient(to top left, #c27fcf 0%, #df3c41 100%); */
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* p {
+    margin-bottom: 20px;
+    text-align: center;
+  } */
+  .logo {
+    height: 100px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .first {
+    color: rgb(0, 0, 0);
+  }
+  .message {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    position: fixed;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* #server--box {
+    background-image: linear-gradient(to top left, #ffae00, #ffcb03);
+    border: 5px solid rgb(124, 83, 114);
+    width: 700px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  } */
+  
+  /* input, */
+  .btn {
+    padding: 10px;
+    font-size: 16px;
+    position: fixed;
+    left: 550px;
+  }
+  
+  .ShortToLong {
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    text-align: center;
+    width: 18rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+    color: inherit;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+    position: fixed;
+    top: 30%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .LongToShort {
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    text-align: center;
+    width: 18rem;
+    border-radius: 10rem;
+    margin-right: 1rem;
+    color: inherit;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+    position: fixed;
+    top: 30%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    /* left: 800px; */
+  }
+  
+  a {
+    background-color: yellowgreen;
+  }
+  
